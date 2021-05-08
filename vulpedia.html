@@ -131,17 +131,31 @@
                     <div class="row">
                       <div class=" col-xs-12 col-sm-12 ">
                         <div class="col-inner">
-                          <p>Nulla nulla nisl, sodales ac nulla ac, consequat vulputate purus. Curabitur tincidunt ipsum vel nibh rutrum accumsan. Nunc ullamcorper posuere leo, vitae aliquet risus pharetra in. Integer turpis eros, iaculis et mi non, pulvinar egestas leo. Etiam sagittis ex turpis, vitae cursus tortor interdum eu. Quisque ultrices nunc eget erat vestibulum euismod. Ut mauris nisi, facilisis at arcu nec, facilisis porttitor lorem.</p><p>Vivamus vitae neque molestie, porta libero sed, tincidunt leo. In nec posuere odio, id rhoncus lorem. Proin id erat ut dolor condimentum viverra. Praesent viverra sed dolor ac luctus. Praesent placerat id lorem quis lacinia.</p>
+                          <p>Dit was mijn eerste website-project. Je kunt de broncode hier vinden: <a href="https://github.com/AliAl-Gburi/Vulpedia">https://github.com/AliAl-Gburi/Vulpedia</a></p><p>De website ging over vossen en hun ondersoorten. Het was een soort eenvoudige encyclopedie over vossen. De inhoud van de website is niet relevant, het was een excuus om een website te maken.</p>
                           
-                          <blockquote class="quote">Maecenas id finibus felis. Etiam vitae nibh et felis efficitur pellentesque. Mauris suscipit sapien nunc, a lacinia nibh feugiat ut. In hac habitasse platea dictumst.
-                            <footer class="quote-author">
-                              <span>Larry L. Johnson</span>
-                            </footer>
-                          </blockquote>
 
-                          <p>Etiam interdum vulputate risus, vitae elementum neque consectetur sed. Donec at risus dui. Ut in suscipit neque. Vestibulum sit amet lobortis magna, commodo venenatis ante. Cras molestie, ex a auctor lacinia, risus est aliquam risus, sit amet semper purus tortor id ante. Donec lacus ipsum, porttitor et libero a, fringilla auctor quam. Sed in nisl id libero tincidunt aliquet. Aenean dui ipsum, auctor ut leo ut, semper dignissim lacus. Suspendisse faucibus viverra consequat. Maecenas efficitur massa vel eros sagittis dapibus. Nam lobortis mi in turpis hendrerit eleifend. Nulla non massa felis.</p>
 
-                          <p>Donec sit amet dolor ante. Vivamus vel massa accumsan, faucibus quam quis, convallis velit. Aliquam erat volutpat. Integer imperdiet diam quis arcu venenatis, quis sagittis nibh rhoncus. Donec non nisi scelerisque, sodales metus quis, accumsan mauris. Curabitur volutpat risus rutrum erat condimentum tristique. Nullam at felis diam. Quisque dictum felis non ante pretium mollis. Aliquam turpis neque, varius nec diam a, aliquam pulvinar diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed ipsum libero, aliquet sed bibendum faucibus, semper a dui.</p>
+                          <p>The steps towards make the website went as follows:
+                              <ul STYLE="margin-left: 50px"><li>Maak de nodige HTML-bestanden om de website een betekenisvolle structuur te geven</li>
+                                  <li>Voeg een favicon en wat styling toe</li>
+                                  <li>Maak de website responsive</li>
+                                  <li>Gebruik flex en grids om de website te stylen</li></ul></p>
+                          <p>Als ik opmerkelijke delen in de code van de website zou willen specificeren, zou ik zeggen dat het het gebruik van grids in mijn css-bestand is:</p>
+                          <p style="background-color: #444; padding-left: 50px; border-radius: 10px; padding-top: 20px; padding-bottom: 20px"><code style="">#contacts p { </br>
+                            display: grid; </br>
+                            grid-template-areas: "label inputfield"; </br>
+                            grid-template-columns: 2fr 4fr; </br>
+                            grid-column-gap: 1em; </br>
+                            align-items: center; </br>
+                            } </br>
+                            label, .radiolabel { </br>
+                            grid-area: label; </br>
+                            grid-column-start: 1; </br>
+                            text-align: right; </br>
+                            } </br>
+                            #firstname, #lastname, #email, input, textarea, .error, #browser { </br>
+                            grid-area: inputfield; </br>
+                          </code></p>
                         </div>
                       </div>
                     </div>
@@ -151,16 +165,16 @@
                   <div class="entry-meta entry-meta-bottom">
                     <div class="date-author">
                       <span class="entry-date">
-                        <a href="#" rel="bookmark">
-                          <i class="far fa-clock"></i> <span class="entry-date"> March 16, 2020</span>
-                        </a>
+
+                          <i class="far fa-clock"></i> <span class="entry-date"> Mei 8, 2021</span>
+
                       </span>
                       <span class="author vcard">
-                        <a class="url fn n" href="#" rel="author"> <i class="fas fa-user"></i> LMPixels</a>
+                         <i class="fas fa-user"></i> <span>Ali Al-Gburi</span>
                       </span>
                     </div>
       
-                    <!-- Share Buttons -->
+                    <!-- Share Buttons
                     <div class="entry-share btn-group share-buttons">
                       <a href="#" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Facebook">
                         <i class="fab fa-facebook-f"></i>
@@ -179,8 +193,8 @@
 
                   <div class="post-tags">
                     <div class="tags">
-                      <a href="#" rel="tag">animate</a>
-                      <a href="#" rel="tag">bar</a>
+                      <a href="#" rel="tag">HTML</a>
+                      <a href="#" rel="tag">CSS</a>
                       <a href="#" rel="tag">design</a>
                       <a href="#" rel="tag">progress</a>
                       <a href="#" rel="tag">ui</a>
